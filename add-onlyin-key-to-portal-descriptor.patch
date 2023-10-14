@@ -1,0 +1,8 @@
+diff -Nrup a/data/gnome.portal.in b/data/gnome.portal.in
+--- a/data/gnome.portal.in	2023-09-18 15:08:37.000000000 +0200
++++ b/data/gnome.portal.in	2023-10-01 08:41:11.993115021 +0200
+@@ -2,3 +2,4 @@
+ DBusName=org.freedesktop.impl.portal.desktop.gnome
+ Interfaces=@PORTALS@;
+ UseIn=gnome
++OnlyIn=gnome
