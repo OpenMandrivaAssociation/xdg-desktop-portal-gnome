@@ -21,6 +21,7 @@ BuildRequires:	pkgconfig(gtk4) >= 4.0
 BuildRequires:	pkgconfig(libadwaita-1)
 BuildRequires:	pkgconfig(libsystemd)
 BuildRequires:	pkgconfig(xdg-desktop-portal)
+Requires: dbus-common
 Requires:	xdg-desktop-portal
 # Not yet (angry)
 #Supplements:	gnome-shell
