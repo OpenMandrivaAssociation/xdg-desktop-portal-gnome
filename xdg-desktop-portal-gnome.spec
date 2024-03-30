@@ -9,6 +9,7 @@ Source0:	https://download.gnome.org/sources/xdg-desktop-portal-gnome/%{url_ver}/
 # Fix slow startup when using other DEs in multi-DE installation (mga#31855)
 Patch0: 	add-onlyin-key-to-portal-descriptor.patch
 
+BuildRequires:  gettext
 BuildRequires:	meson
 BuildRequires:	pkgconfig(dbus-1)
 BuildRequires:	pkgconfig(fontconfig)
