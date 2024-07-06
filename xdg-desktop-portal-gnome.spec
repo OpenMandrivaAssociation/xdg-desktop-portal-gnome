@@ -1,6 +1,6 @@
 Name:		xdg-desktop-portal-gnome
 Version:	46.2
-Release:	1
+Release:	2
 Summary:	A backend implementation for xdg-desktop-portal
 License:	LGPL-2.1-or-later
 Group:		Graphical desktop/GNOME
@@ -26,6 +26,7 @@ Requires: dbus-common
 Requires:	xdg-desktop-portal
 # Not yet (angry)
 #Supplements:	gnome-shell
+Provides: xdg-desktop-portal-implementation
 
 %description
 A backend implementation for xdg-desktop-portal for the GNOME
