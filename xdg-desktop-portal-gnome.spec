@@ -1,13 +1,13 @@
 Name:		xdg-desktop-portal-gnome
 Version:	47.1
-Release:	1
+Release:	2
 Summary:	A backend implementation for xdg-desktop-portal
 License:	LGPL-2.1-or-later
 Group:		Graphical desktop/GNOME
 URL:		https://gitlab.gnome.org/GNOME/xdg-desktop-portal-gnome
 Source0:	https://download.gnome.org/sources/xdg-desktop-portal-gnome/%{url_ver}/%{name}-%{version}.tar.xz
 # Fix slow startup when using other DEs in multi-DE installation (mga#31855)
-Patch0: 	add-onlyin-key-to-portal-descriptor.patch
+#Patch0: 	add-onlyin-key-to-portal-descriptor.patch
 
 BuildRequires:  gettext
 BuildRequires:	meson
