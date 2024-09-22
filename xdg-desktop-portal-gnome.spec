@@ -1,6 +1,6 @@
 Name:		xdg-desktop-portal-gnome
 Version:	47.1
-Release:	2
+Release:	3
 Summary:	A backend implementation for xdg-desktop-portal
 License:	LGPL-2.1-or-later
 Group:		Graphical desktop/GNOME
@@ -36,6 +36,8 @@ desktop environment.
 %autosetup -p1
 
 %build
+export CC=gcc
+export CXX=g++
 %meson -Dsystemduserunitdir=%{_userunitdir}
 %meson_build
 
