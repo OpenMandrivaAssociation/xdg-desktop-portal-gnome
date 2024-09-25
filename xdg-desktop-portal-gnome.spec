@@ -1,6 +1,6 @@
 Name:		xdg-desktop-portal-gnome
 Version:	47.1
-Release:	3
+Release:	4
 Summary:	A backend implementation for xdg-desktop-portal
 License:	LGPL-2.1-or-later
 Group:		Graphical desktop/GNOME
@@ -22,6 +22,7 @@ BuildRequires:	pkgconfig(gtk4) >= 4.0
 BuildRequires:	pkgconfig(libadwaita-1)
 BuildRequires:	pkgconfig(libsystemd)
 BuildRequires:	pkgconfig(xdg-desktop-portal)
+BuildRequires:  xdg-desktop-portal-gtk
 Requires: dbus-common
 Requires:	xdg-desktop-portal
 # Not yet (angry)
@@ -36,8 +37,6 @@ desktop environment.
 %autosetup -p1
 
 %build
-export CC=gcc
-export CXX=g++
 %meson -Dsystemduserunitdir=%{_userunitdir}
 %meson_build
 
