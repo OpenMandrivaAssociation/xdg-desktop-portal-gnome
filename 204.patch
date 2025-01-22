@@ -1,0 +1,12 @@
+diff -uraN xdg-desktop-portal-gnome-47.2/src/notification.c omv-xdg-desktop-portal-gnome-47.2/src/notification.c
+--- xdg-desktop-portal-gnome-47.2/src/notification.c	2025-01-20 13:48:57.000000000 +0100
++++ omv-xdg-desktop-portal-gnome-47.2/src/notification.c	2025-01-22 14:41:38.428962727 +0100
+@@ -69,7 +69,7 @@
+                                                notification_added,
+                                                NULL);
+ 
+-  xdp_impl_notification_complete_add_notification (object, invocation);
++  xdp_impl_notification_complete_add_notification (object, invocation, NULL);
+ 
+   return TRUE;
+ }
