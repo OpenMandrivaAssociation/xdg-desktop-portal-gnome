@@ -1,6 +1,6 @@
 Name:		xdg-desktop-portal-gnome
 Version:	50.0
-Release:	1
+Release:	2
 Summary:	A backend implementation for xdg-desktop-portal
 License:	LGPL-2.1-or-later
 Group:		Graphical desktop/GNOME
